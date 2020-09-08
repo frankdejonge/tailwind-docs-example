@@ -37,7 +37,7 @@ module.exports = {
             filename: isProduction ? '[name].[hash].css' : '[name].css'
         }),
         new ManifestPlugin({
-            fileName: '../_data/manifest.yml',
+            fileName: '../_data/manifest.json',
             publicPath: './dist/',
         }),
     ],
